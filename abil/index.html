@@ -1,14 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./../styles.css">
+    <title> Faiz Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="font-bold text-2xl bg-green-400">
-        Abil Update
-    </div>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto text-center">
+            <img src="mee.jpg" alt="Foto Profil"
+                class="rounded-full mx-auto mb-6 w-32 h-32 shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <h1 class="text-5xl font-extrabold">Faizzz</h1>
+            <p class="text-xl mt-4">Software Engineering</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0 flex justify-center">
+                <img src="me.jpg" alt="Tentang Saya"
+                    class="rounded-lg shadow-lg w-3/4 h-auto transform hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+                <h2 class="text-4xl font-bold mb-6">Tentang Saya</h2>
+                <p class="text-lg leading-relaxed">
+                    Nama saya Faizzz, seorang pelajar di SMKN 1 Jenangan yang memiliki semangat tinggi dalam bidang
+                    teknologi dan pengembangan perangkat lunak. Dengan ketertarikan mendalam pada Rekayasa Perangkat
+                    Lunak (RPL), saya terus mengasah kemampuan dan pengetahuan saya dalam coding, desain web, dan
+                    pengembangan aplikasi.
+                </p>
+                <p class="text-lg leading-relaxed mt-4">
+                    Saya percaya bahwa belajar adalah proses seumur hidup, dan saya selalu berusaha untuk tumbuh bersama
+                    tantangan yang ada. Saya menikmati bekerja di proyek-proyek yang menggabungkan logika, kreativitas,
+                    dan inovasi. Ketika tidak sedang berkutat dengan kode, saya senang mengeksplorasi hal-hal baru yang
+                    dapat memperkaya keterampilan saya.
+                </p>
+                <p class="text-lg leading-relaxed mt-4">Mimpi saya adalah menjadi seorang software engineer yang tidak
+                    hanya handal dalam teknis, tetapi juga mampu memberikan solusi yang membawa dampak positif bagi
+                    masyarakat.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Keahlian Saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div
+                    class="p-8 bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-2xl font-bold mb-4">HTML & CSS</h3>
+                    <p>Saya sudah lumayan menguasai.</p>
+                </div>
+                <div
+                    class="p-8 bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-2xl font-bold mb-4">JavaScript</h3>
+                    <p>Sedikit sedikit.</p>
+                </div>
+                <div
+                    class="p-8 bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-2xl font-bold mb-4">Tidur</h3>
+                    <p>Tidak usah ditanya, saya sangat ahli dalam hal itu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Proyek Terbaru</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="log.png" alt="Proyek 1" class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h3 class="text-white text-2xl font-bold">Proyek 1</h3>
+                    </div>
+                </div>
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="net.png" alt="Proyek 2" class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h3 class="text-white text-2xl font-bold">Proyek 2</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-900 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Hubungi Saya</h2>
+            <p class="text-lg mb-8">Saya selalu terbuka untuk diskusi proyek baru atau peluang kerja sama. Jangan ragu
+                untuk menghubungi saya.</p>
+            <a href="https://wa.me/6282257004434"
+                class="bg-blue-500 text-white px-8 py-3 rounded-full shadow-lg hover:bg-blue-600 transition-colors duration-300">Kontak
+                Saya</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Faizzz</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
