@@ -3,10 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PORTFOLIO</title>
     <link rel="stylesheet" href="./../styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
-<body>
-    
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-800 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="#" class="text-white text-3xl font-bold hover:text-gray-300 transition duration-300">MyPortfolio</a>
+            <div>
+                <a href="#about" class="text-white px-4 hover:text-gray-300 transition duration-300">About</a>
+                <a href="#projects" class="text-white px-4 hover:text-gray-300 transition duration-300">Projects</a>
+                <a href="#contact" class="text-white px-4 hover:text-gray-300 transition duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-800 text-white text-center py-24">
+        <div class="container mx-auto">
+            <h1 class="text-5xl font-bold mb-4">Hallo, saya Rekhan</h1>
+            <p class="text-xl mb-8">Pelajar</p>
+            <a href="#projects" class="bg-transparent border-4 border-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-500 transition duration-300">Project saya</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">About Me</h2>
+            <p class="text-lg mb-12 px-4 md:px-16 lg:px-48">Saya adalah siswa di SMKN 1 Jenangan dengan jurusan Rekayasa Perangkat Lunak (RPL). Saya memutuskan untuk memilih jurusan ini karena kecintaan saya terhadap teknologi dan keinginan untuk terlibat dalam dunia pengembangan perangkat lunak yang terus berkembang.</p>
+            <img src="img/gambar.png" alt="Profile Picture" class="w-50 h-20 mx-auto rounded-full border-4 border-blue-600 shadow-lg mb-6">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-200 py-24">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">My Projects</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="w-full sm:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-2">Project One</h3>
+                        <p class="text-gray-700 mb-4">NETFLIX Landing Page Clone</p>
+                        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-2">Project Two</h3>
+                        <p class="text-gray-700 mb-4">Notes</p>
+                        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+            <p class="text-lg mb-12">My social media.</p>
+            <div class="social-links flex justify-center gap-2">
+                <a href="https://www.instagram.com/rekhaan._?igsh=OTNlajRybWI4N2k=">
+                    <img src="https://pngimg.com/uploads/instagram/instagram_PNG11.png" alt="Instagram" class="w-8 h-8">
+                </a>
+                <a href="https://www.facebook.com/rekhan.kurnia?mibextid=ZbWKwL">
+                    <img src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19748.png" alt="Facebook" class="w-8 h-8">
+                </a>
+                <a href="https://wa.me/+6285606583229">
+                    <img src="https://www.pngkit.com/png/full/3-36604_whatsapp-png.png" alt="Whatsapp" class="w-8 h-8">
+                </a>
+                <a href="https://www.tiktok.com/@r3khn_?_t=8onh5g4FzFo&_r=1">
+                    <img src="https://pngimg.com/uploads/tiktok/tiktok_PNG1.png" alt="Tiktok" class="w-8 h-8">
+                </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <p>&copy; 2024 Rekhan Kurnia Setiadi. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
